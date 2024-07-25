@@ -6,7 +6,7 @@ pipeline {
             parallel {
              stage('Unittest') {
                  steps {
-                     sh 'echo unittesting...'
+                     sh 'exit 5'
                  }
              }
              stage('Lint') {
