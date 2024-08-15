@@ -16,6 +16,9 @@ with open('data/data_movies.json', 'r') as f:
 
 @app.route("/", methods=['GET'])
 def home():
+    """
+    This is the default endpoint, it has no effect on ....
+    """
     return "Hi!!!fsafsdf This app is an API, there is no UI ;-)"
 
 
